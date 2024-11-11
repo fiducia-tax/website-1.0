@@ -5,13 +5,13 @@ import Link from "next/link"
 const FeaturesSection = () => {
     return (
         <section className="mx-6 lg:mx-36 my-36 flex justify-center lg:text-secondary" id="services">
-            <div className="lg:bg-accent lg:shadow-xl lg:py-16 rounded-xl lg:flex lg:justify-center lg:gap-x-36 text-pretty">
+            <div className="lg:bg-accent lg:shadow-xl lg:py-16 rounded-xl lg:flex lg:justify-center lg:gap-x-36">
                 <div className="pb-6 lg:w-2/6">
-                    <h2 className="text-3xl font-bold pb-6 ">
+                    <h2 className="text-3xl font-bold pb-6 text-pretty">
                         Fiducia Tax offers a comprehensive range of financial services designed to meet all your tax and payroll needs.
                     </h2>
                     <Link href={"https://wa.me/13072071072"} target="blank">
-                        <button className="text-[#25D366] flex justify-start items-center gap-3 text-xl mb-6">
+                        <button className="text-[#25D366] flex justify-start items-center gap-3 text-xl mb-6  max-lg:text-base">
                             <WhatsAppIcon />
                             <span className="hover:underline hover:underline-offset-4">
                                 Chat with our advisors now
